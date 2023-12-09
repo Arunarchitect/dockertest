@@ -11,6 +11,7 @@ export default {
         headingColor: "#081e21",
         smallTextColor: "#193256",
       },
+      
     },
   },
   plugins: [],
