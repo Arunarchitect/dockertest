@@ -1,14 +1,21 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
+import Aos from 'aos'
+
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Hero from './components/UI/Hero';
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    Aos.init();
+  }, []);
 
-  return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+  return( <>
+    <Header />
+    <Footer />
+    <Hero />
+  </>)
 }
 
-export default App
+export default App;
