@@ -7,9 +7,9 @@ const Services = () => {
         <div className="container lg:pt-5">
             <div className="text-center">
                 <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
-                    What do I Help
+                    My Expertise
                 </h2 >
-                <p className='lg:max-w-[600px] lg:mx-auto text-headngColor font-[500] text-[16px] leading-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quod excepturi corrupti sunt, qui unde accusantium eaque repudiandae numquam. Provident amet modi dolorem aliquam commodi id eius corrupti eum laudantium.</p>
+                <p className='lg:max-w-[600px] lg:mx-auto text-headngColor font-[500] text-[16px] leading-7'>I specialize in providing comprehensive architectural services, guiding clients through every stage of the design and construction process. From initial planning and conceptualization to detailed design, 3D modeling, municipal certifications, and on-site supervision, my expertise ensures a seamless and successful execution of architectural projects. Whether you're envisioning a residential masterpiece, a commercial space, or an urban development, I am here to transform your ideas into tangible, aesthetically pleasing, and functional realities. My goal is to help you navigate the complexities of architectural endeavors, bringing your vision to life while adhering to the highest standards of creativity and compliance.</p>
             </div>
             <div className="flex flex-col justify-center sm:py-12">
                 <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
@@ -22,10 +22,10 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pr-8 ">
                                         <div data-aos='fade-right' className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 ">
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                                                Planning
+                                            Project Reports
                                             </h3>
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, 
+                                                Preperation of Brief and Detailed project reports by analysing the project's feasibility.
                                             </p>
                                         </div>
                                     </div>
@@ -45,10 +45,10 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8 ">
                                         <div data-aos='fade-left' className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 ">
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                                                Planning
+                                                Design
                                             </h3>
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, 
+                                                Design Concepts, development and detailing with respect to the client's needs.
                                             </p>
                                         </div>
                                     </div>
@@ -67,10 +67,10 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pr-8 ">
                                         <div data-aos='fade-right' className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 ">
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                                                Planning
+                                                Design Analysis
                                             </h3>
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, 
+                                                Efficient analysis and design optimisation.
                                             </p>
                                         </div>
                                     </div>
@@ -90,10 +90,10 @@ const Services = () => {
                                     <div className="w-full sm:w-1/2 sm:pl-8 ">
                                         <div data-aos='fade-left' className="bg-white p-4 rounded shadow group hover:bg-primaryColor cursor-pointer ease-in duration-150 ">
                                             <h3 className="text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] text-xl">
-                                                Planning
+                                                Documentation.
                                             </h3>
                                             <p className='text-[15px] text-smallTextColor group-hover:text-white group-hover:font-[500] leading-7'>
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, 
+                                                Proper Documentations for various requirements including regulatory approvals etc.
                                             </p>
                                         </div>
                                     </div>

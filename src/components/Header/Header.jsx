@@ -64,9 +64,12 @@ const Header = () => {
                 {/* menu end */}
                 {/* menu right */}
                 <div className="flex items-center gap-4">
+                    <a href="#contact">
                     <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor hover:text-white hover:font-[500] ease-in duration-200'>
                         <i className="ri-send-plane-line"></i>Lets Talk
                     </button>
+                    </a>
+                    
                     <span onClick={toggleMenu} className='text-2xl text-smallTextColor md:hidden cursor-pointer'><i className="ri-menu-line"></i></span>
                 </div>
                 {/* menu end right */}

@@ -18,20 +18,20 @@ const Contact = () => {
 
                 </div>
                 <div className="w-full mt-8 md:mt-0 md:w-1/2 sm:h-[450px] lg:flex items-center bg-indigo-100 px-4 lg:px-8 py-8">
-                    <form action="" className="w-full">
+                    <form  action="https://getform.io/f/9ea19b12-f9b6-4fcc-9f20-e5b6859f17a1" method="POST" className="w-full">
                         <div className="mb-5">
-                            <input type="text" placeholder='Enter your Name' className="w-full p-3 focus:outline-none" />
+                            <input type="text" name="name" placeholder='Enter your Name' className="w-full p-3 focus:outline-none" />
                         </div>
                         <div className="mb-5">
-                            <input type="text" placeholder='Enter your Email' className="w-full p-3 focus:outline-none" />
+                            <input type="email" name="email" placeholder='Enter your Email' className="w-full p-3 focus:outline-none" />
                         </div>
                         <div className="mb-5">
-                            <input type="text" placeholder='Enter your Subject' className="w-full p-3 focus:outline-none" />
+                            <input type="text" name='subject' placeholder='Enter your Subject' className="w-full p-3 focus:outline-none" />
                         </div>
                         <div className="mb-5">
-                            <textarea type="text" placeholder='Write your message' className="w-full p-3 focus:outline-none" />
+                            <textarea type="text" name='message' placeholder='Write your message' className="w-full p-3 focus:outline-none" />
                         </div>
-                        <button className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor  text-center ease-linear duration-150">Send Message</button>
+                        <button type="submit" className="w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColor  text-center ease-linear duration-150">Send Message</button>
                     </form>
                 </div>
             </div>

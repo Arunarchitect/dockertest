@@ -57,7 +57,7 @@ const Portfolio = () => {
             <div className="flex items-center gap-4 flex-wrap mt-12">
                 {
                     portfolios.slice(0,nextItems)?.map((portfolio,index)=>(
-                        <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000' className="group max-w-full xs:w-[98%] sm:w-[98%] md:w-[20%] lg:w-[32%] relative z-[1]">
+                        <div key={index} data-aos='fade-zoom-in' data-aos-delay='50' data-aos-duration='1000' className="group max-w-full xs:w-[98%] sm:w-[98%] md:w-[98%] lg:w-[32%] relative z-[1]">
                             <figure  className="customFigure">
                                 <img className='rounded-[18px] customFigure' src={portfolio.imgUrl} alt="" />
                             </figure>

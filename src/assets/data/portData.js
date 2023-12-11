@@ -1,4 +1,5 @@
 import pImg from '../../images/gggg.jpg';
+import pImge from '../../images/p1.jpg';
 
 const portData = [
   {
@@ -19,10 +20,10 @@ const portData = [
   },
   {
     id: 3,
-    title: 'Project 3',
-    imgUrl: pImg,
+    title: 'Dr. Pramod\'s Roots and Canals',
+    imgUrl: pImge,
     category: 'Hospital',
-    description: 'Description for Project 3',
+    description: 'Located in Thevally',
     fields: ['medical', 'accessible'],
   },
   {
