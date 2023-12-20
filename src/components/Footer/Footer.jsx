@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactWhatsapp from 'react-whatsapp';
 
 const Footer = () => {
   return (
@@ -13,10 +14,12 @@ const Footer = () => {
             <a href="#contact">
                         <button className='bg-primaryColor text-white font-[500] flex items-center gap-2 hover:bg-smallTextColor ease-in duration-300 py-2 px-4 rounded-[8px]'><i className="ri-mail-line"></i>Contact Me</button>
                     </a>
+                    
+                    
           </div>
           <div className="w-full sm:w-1/2">
             <p className="text-gray-300 leading-7 mt-4 sm:mt-0">
-              For more of my updates you can -----!
+              For more of my updates you can -----!<ReactWhatsapp number="+91 9447648320" message="Hi Arun, I am interested in your service."><i className="ri-whatsapp-line" style={{ color: '#00cc00',  fontSize: '24px' }}></i></ReactWhatsapp>
             </p>
             <div className="flex items-center gap-4 flex-wrap md:gap-8 mt-10">
               <span className='text-gray-300 font-[600] text-[15px]'>
