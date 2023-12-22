@@ -1,21 +1,23 @@
 import pImg from '../../images/gggg.jpg';
 import pImge from '../../images/p1.jpg';
+import lImage from '../../images/Lakme.jpg';
+import SImage from '../../images/Suresh.jpg';
 
 const portData = [
   {
     id: 1,
-    title: 'Project 1',
-    imgUrl: pImg,
-    category: 'House',
-    description: 'Description for Project 1',
-    fields: ['modern', 'sustainable'],
+    title: 'Lakme Salon',
+    imgUrl: lImage,
+    category: 'Commercial',
+    description: 'Located in Thevally Kollam',
+    fields: ['minimalist', 'energy-efficient'],
   },
   {
     id: 2,
-    title: 'Project 2',
-    imgUrl: pImg,
-    category: 'House',
-    description: 'Description for Project 2',
+    title: 'Jayashree Arcade',
+    imgUrl: SImage,
+    category: 'Commercial',
+    description: 'Located in Ashramam , Kollam',
     fields: ['classic', 'spacious'],
   },
   {
@@ -36,9 +38,9 @@ const portData = [
   },
   {
     id: 5,
-    title: 'Project 5',
-    imgUrl: pImg,
-    category: 'House',
+    title: 'Lakme Salon',
+    imgUrl: lImage,
+    category: 'Commercial',
     description: 'Description for Project 5',
     fields: ['minimalist', 'energy-efficient'],
   },
@@ -46,7 +48,7 @@ const portData = [
     id: 6,
     title: 'Project 6',
     imgUrl: pImg,
-    category: 'Hospital',
+    category: 'House',
     description: 'Description for Project 6',
     fields: ['innovative', 'patient-focused'],
   },
@@ -70,7 +72,7 @@ const portData = [
     id: 9,
     title: 'Project 9',
     imgUrl: pImg,
-    category: 'Hospital',
+    category: 'House',
     description: 'Description for Project 9',
     fields: ['technological', 'healing'],
   },
@@ -94,7 +96,7 @@ const portData = [
     id: 12,
     title: 'Project 12',
     imgUrl: pImg,
-    category: 'Hospital',
+    category: 'House',
     description: 'Description for Project 12',
     fields: ['research', 'healing-environment'],
   },

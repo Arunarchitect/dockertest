@@ -24,8 +24,8 @@ const Portfolio = () => {
         if(selectTab==='all'){
             setPortfolios(data)
         }
-        if(selectTab==='plan'){
-            const filterData = data.filter(item => item.category==='Plan')
+        if(selectTab==='commercial'){
+            const filterData = data.filter(item => item.category==='Commercial')
             setPortfolios(filterData)
         }
         if(selectTab==='house'){
@@ -48,8 +48,7 @@ const Portfolio = () => {
                 </div>
                 <div className="flex gap-3" >
                     <button onClick={()=>setSelectTab('all')} className='text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]'>All</button>
-                    <button onClick={()=>setSelectTab('plan')} className='text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]'>Plan</button>
-                    <button onClick={()=>setSelectTab('house')} className='text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]'>House</button>
+                    <button onClick={()=>setSelectTab('commercial')} className='text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]'>Commercial</button>
                     <button onClick={()=>setSelectTab('hospital')} className='text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]'>Hospital</button>
 
                 </div>
