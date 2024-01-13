@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../../images/photo.png'
+import heroImg from '../../images/icon.png'
 
 const Services = () => {
   return (

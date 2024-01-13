@@ -1,6 +1,7 @@
 import React from 'react'
 import CountUp from 'react-countup'
 import heroImg from '../../images/photo.png'
+import iImg from '../../images/icon.png'
 
 const Hero = () => {
   return (
@@ -62,8 +63,8 @@ const Hero = () => {
                 
                 {/* Hero left end */}
                 {/* hero image */}
-                <div className="basis-1/3 mt-10 sm:mt-0">
-                    <figure className='flex items-center'>
+                <div className="basis-1/3 mt-10 sm:mt-0 ">
+                    <figure className='flex items-center justify-center '>
                         <img src={heroImg} alt="" />
                     </figure>
                 </div>
