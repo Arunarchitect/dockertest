@@ -5,12 +5,15 @@ const Services = () => {
   return (
     <section id="services">
         <div className="container lg:pt-5">
-            <div className="text-center">
-                <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
-                    My Expertise
-                </h2 >
-                <p className='lg:max-w-[600px] lg:mx-auto text-headngColor font-[500] text-[16px] leading-7'>I specialize in providing comprehensive architectural services, guiding clients through every stage of the design and construction process. From initial planning and conceptualization to detailed design, 3D modeling, municipal certifications, and on-site supervision, my expertise ensures a seamless and successful execution of architectural projects. Whether you're envisioning a residential masterpiece, a commercial space, or an urban development, I am here to transform your ideas into tangible, aesthetically pleasing, and functional realities. My goal is to help you navigate the complexities of architectural endeavors, bringing your vision to life while adhering to the highest standards of creativity and compliance.</p>
-            </div>
+        <div className="text-center mx-auto max-w-screen-xl">
+    <h2 className="text-headingColor font-[800] text-[2.4rem] mb-5">
+        My Expertise
+    </h2>
+    <p className='text-headngColor font-[500] text-[16px] leading-7 text-left'>
+        I specialize in providing comprehensive architectural services, guiding clients through every stage of the design and construction process. From initial planning and conceptualization to detailed design, 3D modeling, municipal certifications, and on-site supervision, my expertise ensures a seamless and successful execution of architectural projects. Whether you're envisioning a residential masterpiece, a commercial space, or an urban development, I am here to transform your ideas into tangible, aesthetically pleasing, and functional realities. My goal is to help you navigate the complexities of architectural endeavors, bringing your vision to life while adhering to the highest standards of creativity and compliance.
+    </p>
+</div>
+
             <div className="flex flex-col justify-center sm:py-12">
                 <div className="w-full py-3 px-2 sm:max-w-xl sm:mx-auto sm:px-0">
                     <div className="relative text-gray-700 antialiased text-sm font-semibold">
