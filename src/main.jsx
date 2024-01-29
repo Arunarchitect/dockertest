@@ -11,6 +11,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Homepage from './components/Homepage.jsx';
+import Project from './components/portfolio/Project.jsx';
+import PagenotFound from './components/PagenotFound.jsx';
+import Card from './components/portfolio/Card.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,6 +24,14 @@ const router = createBrowserRouter([
       {
         path:'/',
         element: <Homepage />
+      },
+      {
+        path:'/project',
+        element: <Card />
+      },
+      {
+        path:'/*',
+        element: <PagenotFound />
       }
     ]
   },

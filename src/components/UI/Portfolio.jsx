@@ -15,6 +15,8 @@ const Portfolio = () => {
         setActiveID(id)
     }
 
+    
+
 
     const loadMoreHandler = ()=>{
         setNextitems(prev => prev + 3)
