@@ -2,13 +2,20 @@ import React, { useState } from "react";
 import { AiOutlineArrowRight, AiOutlineHeart } from "react-icons/ai";
 import { BiCommentDetail } from "react-icons/bi";
 import data from "../../assets/data/portData";
+import { useParams } from "react-router-dom";
 
 const Card = () => {
+  // console.log(useParams());
+  
   const [portfolios, setPortfolios] = useState(data);
-  const specifiedId = 3; // Replace with the specific id you want to display
+  const { id } = useParams(); // Assuming you're using React Router's useParams() hook
+  const specifiedId = parseInt(id, 10); // Convert id to a number if needed
+  // console.log(specifiedId);
 
   // Find the portfolio with the specified id
-  const specifiedPortfolio = portfolios.find(portfolio => portfolio.id === specifiedId);
+  const specifiedPortfolio = portfolios.find(
+    (portfolio) => portfolio.id === specifiedId
+  );
 
   return (
     <article className="mt-8">
@@ -25,7 +32,7 @@ const Card = () => {
           </a>
         </div>
         <img
-          src={specifiedPortfolio?.imgUrl || ''} // Display image based on specified id
+          src={specifiedPortfolio?.imgUrl || ""} // Display image based on specified id
           className="w-full object-cover lg:rounded"
           style={{ height: "28em" }}
           alt="Portfolio Image"
@@ -39,7 +46,7 @@ const Card = () => {
           <div className="p-4 border-t border-b md:border md:rounded">
             <div className="flex py-2">
               <img
-                src={specifiedPortfolio?.imgUrl || ''} // Display image based on specified id
+                src={specifiedPortfolio?.imgUrl || ""} // Display image based on specified id
                 className="h-10 w-10 rounded-full mr-2 object-cover"
                 alt="Author"
               />
