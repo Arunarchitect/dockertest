@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import { AiOutlineArrowRight, AiOutlineHeart } from "react-icons/ai";
+import React, { useEffect, useState } from "react";
+import { AiOutlineArrowLeft, AiOutlineHeart } from "react-icons/ai";
 import { BiCommentDetail } from "react-icons/bi";
 import data from "../../assets/data/portData";
 import { useParams } from "react-router-dom";
+import { TransformComponent, TransformWrapper } from "react-zoom-pan-pinch";
 
 const Card = () => {
   // console.log(useParams());
@@ -15,26 +16,45 @@ const Card = () => {
   // Find the portfolio with the specified id
   const sPort = portfolios.find((portfolio) => portfolio.id === specifiedId);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+  useEffect(() => {
+    // Scroll to the top when the component mounts or when the page is refreshed
+    scrollToTop();
+  }, []); // Empty dependency array ensures this effect runs only once on mount
+
   return (
-    <article className="mt-8">
-      <div className="mb-4 md:mb-0 w-full mx-auto relative">
-        <div className="px-4 lg:px-0">
+    <article className="mt-8 flex flex-col items-center">
+      <div className="mb-4 md:mb-0 w-full mx-auto relative ">
+        <div className="px-4 lg:px-0 lg:space-x-6">
           <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
-            Search
+            {sPort.title}
           </h2>
           <a
             href="#"
             className="py-2 text-green-700 inline-flex items-center justify-center mb-2"
           >
-            Search2
+            {sPort.category} Project
           </a>
         </div>
-        <img
-          src={sPort.imgUrl || ""} // Display image based on specified id
-          className="w-full object-cover lg:rounded"
-          style={{ height: "30em" }}
-          alt="Portfolio Image"
-        />
+        <TransformWrapper
+          defaultScale={1}
+          defaultPositionX={100}
+          defaultPositionY={200}
+        >
+          <TransformComponent>
+            <div className="w-full flex items-center ">
+              <img
+                src={sPort.imgUrl || ""}
+                className="object-cover lg:rounded"
+                style={{ maxHeight: "40em", maxWidth: "100%" }}
+                alt="Portfolio Image"
+              />
+            </div>
+          </TransformComponent>
+        </TransformWrapper>
       </div>
 
       <div className="flex flex-col lg:flex-row lg:space-x-12">
@@ -42,7 +62,7 @@ const Card = () => {
           {/* ... Existing code ... */}
           {sPort.description}
           <br /> <br />
-          <p>This is an extra paragraph</p>
+          {/* <p>This is an extra paragraph</p> */}
         </div>
 
         {/* <div className="w-full lg:w-1/4 m-auto mt-12 max-w-screen-sm">
@@ -82,8 +102,8 @@ const Card = () => {
           href="/"
           className="text-green-700 inline-flex items-center justify-center"
         >
+          <AiOutlineArrowLeft className="ml-2" />
           Back to Home
-          <AiOutlineArrowRight className="ml-2" />
         </a>
       </div>
     </article>

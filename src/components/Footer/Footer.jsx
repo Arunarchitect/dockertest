@@ -71,7 +71,7 @@ const Footer = () => {
                 </span>
                 <div className="leading-[20px]">
                   <h2 className="text-gray-200 font-[500] text-[18px]" >Arun</h2>
-                  <p className='text-gray-400 text-[14px] font-[500]'>Personal</p>
+                  <p className='text-gray-400 text-[14px] font-[500]'>Professional</p>
                 </div>
               </div>
             </div>

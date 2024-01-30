@@ -9,7 +9,7 @@ const portData = [
     title: 'Lakme Salon',
     imgUrl: lImage,
     category: 'Commercial',
-    description: 'Located in Thevally Kollam',
+    description: "The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity. The envisioned establishment will house a boutique, spa, and a dance studio, complemented by a private suite.The design phase commenced in December 2021, marking the initiation of our creative journeytowards realizing your vision and the first set of finalised drawings and renderings were issued on 8 January 2022.  To guarantee the structural integrity and safety of the envisioned space, we engaged the expertise of Dr. Lalu Mangal for comprehensive structural consultation. Dr. Mangal’s extensive experience and proficiency in structural engineering have proven invaluable in shaping the project’s foundation",
     fields: ['minimalist', 'energy-efficient'],
   },
   {
