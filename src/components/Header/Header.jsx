@@ -1,10 +1,13 @@
 import React, {useRef, useEffect} from 'react'
 import ReactWhatsapp from 'react-whatsapp';
+import { useNavigate } from 'react-router-dom';
 // import '../../App.css'
 
 const Header = () => {
     const headerRef = useRef(null)
     const menuRef = useRef(null)
+
+    const navigate = useNavigate();
 
 
     const stickyHeaderFunc = ()=>{
@@ -23,6 +26,7 @@ const Header = () => {
 
     const handleClick = e =>{
         e.preventDefault()
+        navigate(`/`);
 
         const targetAttr = e.target.getAttribute('href')
         const location = document.querySelector(targetAttr).offsetTop

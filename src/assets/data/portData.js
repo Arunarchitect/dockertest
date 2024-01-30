@@ -22,10 +22,10 @@ const portData = [
   },
   {
     id: 3,
-    title: 'Dr. Pramod\'s Roots and Canals',
+    title: "Dr. Pramod's Roots and Canals",
     imgUrl: pImge,
     category: 'Hospital',
-    description: 'Located in Thevally',
+    description: 'The dental clinic in Kollam is a harmonious blend of modernity and functionality, thoughtfully designed to create a welcoming and soothing environment for patients. Located in the heart of Kollam, the clinic boasts a contemporary facade that reflects a commitment to cutting-edge dental care. The interiors are characterized by a palette of calming colors, with natural light flooding in through strategically placed windows, enhancing the overall sense of openness and tranquility. The reception area is equipped with comfortable seating, and the decor incorporates elements inspired by local culture, creating a sense of familiarity for patients. State-of-the-art dental equipment is seamlessly integrated into treatment rooms, ensuring efficiency and precision in procedures. The clinic\'s design prioritizes patient comfort, privacy, and accessibility, fostering an atmosphere that promotes oral health and well-being.',
     fields: ['medical', 'accessible'],
   },
   {
