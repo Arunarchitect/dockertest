@@ -20,26 +20,64 @@ const Card = () => {
     window.scrollTo(0, 0);
   };
 
+
   useEffect(() => {
     // Scroll to the top when the component mounts or when the page is refreshed
     scrollToTop();
-  }, []); // Empty dependency array ensures this effect runs only once on mount
+    console.log('Scrolling to top');
+  }, []);
 
   return (
     <article className="mt-8 flex flex-col items-center">
-      <div className="mb-4 md:mb-0 w-full mx-auto relative ">
-        <div className="px-4 lg:px-0 lg:space-x-6">
+      <div className="mb-4 flex flex-col md:flex-row w-full mx-auto relative">
+        <div className="px-4  md:w-1/2">
           <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
             {sPort.title}
           </h2>
-          <a
-            href="#"
-            className="py-2 text-green-700 inline-flex items-center justify-center mb-2"
-          >
+          <h3 className="py-2 text-green-700 inline-flex items-center justify-center mb-2">
             {sPort.category} Project
-          </a>
+          </h3>
+          <br />
+          <h4 className="text-xl font-bold mb-1">
+            Location:
+            <a href={sPort.lUrl} className="text-blue-500 hover:underline ml-2">
+              {sPort.location}
+            </a>
+          </h4>
+          <h3>Client: {sPort.client}</h3>
+          <h2 className="text-xl font-bold mb-1"> Project team</h2>
+          <h3>
+            {" "}
+            Design Team:
+            {sPort.design.length > 0 && (
+              <span>
+                {sPort.design.map((designer, index) => (
+                  <span key={index}>
+                    {index > 0 && ", "}
+                    {designer}
+                  </span>
+                ))}
+              </span>
+            )}
+          </h3>
+          <h3>
+            {" "}
+            Execution Team:
+            {sPort.design.length > 0 && (
+              <span>
+                {sPort.exec.map((designer, index) => (
+                  <span key={index}>
+                    {index > 0 && ", "}
+                    {designer}
+                  </span>
+                ))}
+              </span>
+            )}
+          </h3>
+
+          <h3 className="text-xl font-bold mb-2">Design Philosophy:  <p className="text-sm font-light mb-1">{sPort.phil}</p></h3>
         </div>
-        <TransformWrapper
+        {/* <TransformWrapper
           defaultScale={1}
           defaultPositionX={100}
           defaultPositionY={200}
@@ -54,13 +92,22 @@ const Card = () => {
               />
             </div>
           </TransformComponent>
-        </TransformWrapper>
+        </TransformWrapper> */}
+        <div className="md:w-1/2 flex items-center">
+          <img
+            src={sPort.imgUrl || ""}
+            className="object-cover lg:rounded"
+            style={{ maxHeight: "40em", maxWidth: "100%" }}
+            alt="Portfolio Image"
+          />
+        </div>
       </div>
 
       <div className="flex flex-col lg:flex-row lg:space-x-12">
-        <div className="px-4 lg:px-0 mt-8 text-gray-700 text-lg leading-relaxed w-full lg:w-full">
+        <div className="px-4 lg:px-0 mt-3 text-gray-700 text-sm leading-relaxed w-full lg:w-full">
           {/* ... Existing code ... */}
-          {sPort.description}
+          <h4>{sPort.description}</h4>
+          
           <br /> <br />
           {/* <p>This is an extra paragraph</p> */}
         </div>
@@ -89,7 +136,7 @@ const Card = () => {
         </div> */}
       </div>
 
-      <div className="flex items-center justify-between mt-4 md:w-1/2">
+      <div className="flex  items-center justify-between mt-4 md:w-full">
         {/* <div className="flex items-center space-x-2">
           <BiCommentDetail className="text-gray-600" />
           <span className="text-gray-600">15 comments</span>
@@ -102,7 +149,7 @@ const Card = () => {
           href="/"
           className="text-green-700 inline-flex items-center justify-center"
         >
-          <AiOutlineArrowLeft className="ml-2" />
+          <AiOutlineArrowLeft className="ml-0" />
           Back to Home
         </a>
       </div>

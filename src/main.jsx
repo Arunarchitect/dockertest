@@ -30,6 +30,10 @@ const router = createBrowserRouter([
         element: <Card />
       },
       {
+        path:'/test',
+        element: <Project />
+      },
+      {
         path:'/*',
         element: <PagenotFound />
       }

@@ -51,7 +51,6 @@ const Footer = () => {
         </div>
         <div >
         <ul className='flex items-center justify-center gap-10 mt-10'>
-          <li><a className='text-gray-400 font-[600]' href="/#">Home</a></li>
           <li><a className='text-gray-400 font-[600]' href="/#about">About</a></li>
           <li><a className='text-gray-400 font-[600]' href="/#services">Services</a></li>
           <li><a className='text-gray-400 font-[600]' href="/#portfolio">Portfolio</a></li>

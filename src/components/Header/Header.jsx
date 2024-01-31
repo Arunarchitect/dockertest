@@ -73,7 +73,7 @@ const Header = () => {
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600]"
-                  href="#about"
+                  href="/#about"
                 >
                   About
                 </a>
@@ -82,7 +82,7 @@ const Header = () => {
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600]"
-                  href="#services"
+                  href="/#services"
                 >
                   Services
                 </a>
@@ -91,7 +91,7 @@ const Header = () => {
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600]"
-                  href="#portfolio"
+                  href="/#portfolio"
                 >
                   Portfolio
                 </a>
@@ -100,7 +100,7 @@ const Header = () => {
                 <a
                   onClick={handleClick}
                   className="text-smallTextColor font-[600]"
-                  href="#contact"
+                  href="/#contact"
                 >
                   Contact
                 </a>
