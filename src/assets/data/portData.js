@@ -48,7 +48,7 @@ const portData = [
   },
   {
     id: 4,
-    title: 'Project 4',
+    title: 'Dr.Anish',
     imgUrl: pImg,
     category: 'Plan',
     location: 'Thevally, Kollam',
@@ -62,7 +62,7 @@ const portData = [
   },
   {
     id: 5,
-    title: 'Lakme Salon',
+    title: 'Abu Shahman',
     imgUrl: lImage,
     category: 'Commercial',
     location: 'Thevally, Kollam',
@@ -76,7 +76,7 @@ const portData = [
   },
   {
     id: 6,
-    title: 'Project 6',
+    title: 'Dr.Mini & Manoj',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -90,7 +90,7 @@ const portData = [
   },
   {
     id: 7,
-    title: 'Project 7',
+    title: 'Residence Renovation: Mukesh MLA',
     imgUrl: pImg,
     category: 'Plan',
     location: 'Thevally, Kollam',
@@ -104,7 +104,7 @@ const portData = [
   },
   {
     id: 8,
-    title: 'Project 8',
+    title: 'Mangad Bank',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -118,12 +118,12 @@ const portData = [
   },
   {
     id: 9,
-    title: 'Project 9',
+    title: 'Residence for Mr. Ravikumar',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr. Ravikumar',
     design: ['Er.B.Sunilkumar', 'Ar.Arun.Ravikumar', 'Dr.Lalu Mangal'],
     exec:['Noufal','Arun Raj'],
     description: 'Description for Project 9',
@@ -132,7 +132,7 @@ const portData = [
   },
   {
     id: 10,
-    title: 'Project 10',
+    title: 'Residence for Mr. Joseph',
     imgUrl: pImg,
     category: 'Plan',
     location: 'Thevally, Kollam',
@@ -146,7 +146,7 @@ const portData = [
   },
   {
     id: 11,
-    title: 'Project 11',
+    title: 'Residence for ',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -160,10 +160,10 @@ const portData = [
   },
   {
     id: 12,
-    title: 'Project 12',
+    title: 'Urban Oasis ',
     imgUrl: pImg,
     category: 'House',
-    location: 'Thevally, Kollam',
+    location: 'Velayittambalam, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
     client:'Mr. RajKumar',
     design: ['Er.B.Sunilkumar', 'Ar.Arun.Ravikumar', 'Dr.Lalu Mangal'],

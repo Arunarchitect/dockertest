@@ -44,7 +44,7 @@ const Portfolio = () => {
     <section id="portfolio">
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
-          <div className="mb-7 sm:mb-0">
+          <div className=" sm:mb-0">
             <h3 className="text-headingColor text-[2rem] font-[700]">
               My Recent Projects
             </h3>
@@ -86,8 +86,10 @@ const Portfolio = () => {
                   alt=""
                 />
               </figure>
-              <div className="w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block">
-                <div className="w-full h-full flex items-center justify-center">
+              <div className="w-full h-full bg-black bg-opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block">
+                <div className="w-full h-full flex flex-col text-white items-center justify-center">
+                  <h1>{portfolio.title}</h1>
+                  <h1>{portfolio.location}</h1>
                   <button
                     onClick={() => showModelHandler(portfolio.id)}
                     className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"

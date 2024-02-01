@@ -39,7 +39,7 @@ const Header = () => {
     const location = document.querySelector(targetAttr).offsetTop;
 
     window.scrollTo({
-      top: location - 80,
+      top: location - 1,
       left: 0,
     });
   };
@@ -71,7 +71,7 @@ const Header = () => {
             <ul className="flex items-center gap-10">
               <li>
                 <a
-                  onClick={handleClick}
+                  // onClick={handleClick}
                   className="text-smallTextColor font-[600]"
                   href="/#about"
                 >
@@ -80,7 +80,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  // onClick={handleClick}
                   className="text-smallTextColor font-[600]"
                   href="/#services"
                 >
@@ -89,7 +89,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  // onClick={handleClick}
                   className="text-smallTextColor font-[600]"
                   href="/#portfolio"
                 >
@@ -98,7 +98,7 @@ const Header = () => {
               </li>
               <li>
                 <a
-                  onClick={handleClick}
+                  // onClick={handleClick}
                   className="text-smallTextColor font-[600]"
                   href="/#contact"
                 >
