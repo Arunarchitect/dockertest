@@ -16,16 +16,7 @@ const Card = () => {
   // Find the portfolio with the specified id
   const sPort = portfolios.find((portfolio) => portfolio.id === specifiedId);
 
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
 
-
-  useEffect(() => {
-    // Scroll to the top when the component mounts or when the page is refreshed
-    scrollToTop();
-    console.log('Scrolling to top');
-  }, []);
 
   return (
     <article className="mt-8 flex flex-col items-center">
@@ -34,9 +25,14 @@ const Card = () => {
           <h2 className="text-4xl font-semibold text-gray-800 leading-tight">
             {sPort.title}
           </h2>
-          <h3 className="py-2 text-green-700 inline-flex items-center justify-center mb-2">
+          <h3 className=" text-green-700 inline-flex items-center justify-center mb-2">
             {sPort.category} Project
           </h3>
+          <br />
+          <h3 className=" text-blue-700 inline-flex items-center justify-center mb-2">
+            Status: {sPort.status} 
+          </h3>
+
           <br />
           <h4 className="text-xl font-bold mb-1">
             Location:

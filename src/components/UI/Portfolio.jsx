@@ -20,7 +20,7 @@ const Portfolio = () => {
 
 
   const loadMoreHandler = () => {
-    setNextitems((prev) => prev + 3);
+    setNextitems((prev) => prev + 9);
   };
 
   useEffect(() => {

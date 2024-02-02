@@ -1,12 +1,17 @@
-import pImg from '../../images/gggg.jpg';
+import pImg from '../../images/joseph.jpg';
 import pImge from '../../images/p1.jpg';
 import lImage from '../../images/Lakme.jpg';
 import SImage from '../../images/Suresh.jpg';
+import anImage from '../../images/anish.jpg';
+import jImage from '../../images/joseph.jpg';
+import AbImage from '../../images/Abu.jpg';
 
 const portData = [
   {
     id: 1,
     title: 'Lakme Salon',
+    status:'Unbuilt',
+    
     imgUrl: lImage,
     category: 'Commercial',
     location: 'Thevally, Kollam',
@@ -21,6 +26,7 @@ const portData = [
   {
     id: 2,
     title: 'Jayashree Arcade',
+    status:'Unbuilt',
     imgUrl: SImage,
     category: 'Commercial',
     location: 'Thevally, Kollam',
@@ -35,6 +41,7 @@ const portData = [
   {
     id: 3,
     title: "Dr. Pramod's Roots and Canals",
+    status:'Unbuilt',
     imgUrl: pImge,
     category: 'Hospital',
     location: 'Thevally, Kollam',
@@ -49,7 +56,8 @@ const portData = [
   {
     id: 4,
     title: 'Dr.Anish',
-    imgUrl: pImg,
+    status:'Unbuilt',
+    imgUrl: anImage,
     category: 'Plan',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
@@ -63,7 +71,8 @@ const portData = [
   {
     id: 5,
     title: 'Abu Shahman',
-    imgUrl: lImage,
+    status:'Unbuilt',
+    imgUrl: AbImage,
     category: 'Commercial',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
@@ -77,6 +86,7 @@ const portData = [
   {
     id: 6,
     title: 'Dr.Mini & Manoj',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -91,6 +101,7 @@ const portData = [
   {
     id: 7,
     title: 'Residence Renovation: Mukesh MLA',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'Plan',
     location: 'Thevally, Kollam',
@@ -105,6 +116,7 @@ const portData = [
   {
     id: 8,
     title: 'Mangad Bank',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -119,6 +131,7 @@ const portData = [
   {
     id: 9,
     title: 'Residence for Mr. Ravikumar',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -133,7 +146,8 @@ const portData = [
   {
     id: 10,
     title: 'Residence for Mr. Joseph',
-    imgUrl: pImg,
+    status:'Unbuilt',
+    imgUrl: jImage,
     category: 'Plan',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
@@ -147,6 +161,7 @@ const portData = [
   {
     id: 11,
     title: 'Residence for ',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'House',
     location: 'Thevally, Kollam',
@@ -161,6 +176,7 @@ const portData = [
   {
     id: 12,
     title: 'Urban Oasis ',
+    status:'Unbuilt',
     imgUrl: pImg,
     category: 'House',
     location: 'Velayittambalam, Kollam',
