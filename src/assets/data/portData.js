@@ -5,12 +5,16 @@ import SImage from '../../images/Suresh.jpg';
 import anImage from '../../images/anish.jpg';
 import jImage from '../../images/joseph.jpg';
 import AbImage from '../../images/Abu.jpg';
+import caI from '../../images/cap.jpg';
+import mI from '../../images/mini.jpg';
+import muI from '../../images/mukesh.jpg';
+import maI from '../../images/mangad.jpg';
 
 const portData = [
   {
     id: 1,
     title: 'Lakme Salon',
-    status:'Unbuilt',
+    status:'Built-2023',
     
     imgUrl: lImage,
     category: 'Commercial',
@@ -26,7 +30,7 @@ const portData = [
   {
     id: 2,
     title: 'Jayashree Arcade',
-    status:'Unbuilt',
+    status:'Built-2023',
     imgUrl: SImage,
     category: 'Commercial',
     location: 'Thevally, Kollam',
@@ -41,7 +45,7 @@ const portData = [
   {
     id: 3,
     title: "Dr. Pramod's Roots and Canals",
-    status:'Unbuilt',
+    status:'Built-2023',
     imgUrl: pImge,
     category: 'Hospital',
     location: 'Thevally, Kollam',
@@ -56,7 +60,7 @@ const portData = [
   {
     id: 4,
     title: 'Dr.Anish',
-    status:'Unbuilt',
+    status:'Built-2024',
     imgUrl: anImage,
     category: 'Plan',
     location: 'Thevally, Kollam',
@@ -85,24 +89,24 @@ const portData = [
   },
   {
     id: 6,
-    title: 'Dr.Mini & Manoj',
+    title: 'Residence for Dr.Manoj & Dr.Mini',
     status:'Unbuilt',
-    imgUrl: pImg,
+    imgUrl: mI,
     category: 'House',
-    location: 'Thevally, Kollam',
-    lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    location: 'Karunagappally',
+    lUrl:'',
+    client:'Dr.Manoj & Dr.Mini',
     design: ['Er.B.Sunilkumar', 'Ar.Arun.Ravikumar', 'Dr.Lalu Mangal'],
     exec:['Noufal','Arun Raj'],
     description: 'Description for Project 6',
     fields: ['innovative', 'patient-focused'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'The design of the project was conceived by integrating colonial and modern features of architecture in the context of Kerala.'
   },
   {
     id: 7,
     title: 'Residence Renovation: Mukesh MLA',
     status:'Unbuilt',
-    imgUrl: pImg,
+    imgUrl: muI,
     category: 'Plan',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
@@ -160,11 +164,11 @@ const portData = [
   },
   {
     id: 11,
-    title: 'Residence for ',
+    title: 'Renovation of Capithans Theatre ',
     status:'Unbuilt',
-    imgUrl: pImg,
-    category: 'House',
-    location: 'Thevally, Kollam',
+    imgUrl: caI,
+    category: 'Commercial',
+    location: 'Kavanad',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
     client:'Mr. RajKumar',
     design: ['Er.B.Sunilkumar', 'Ar.Arun.Ravikumar', 'Dr.Lalu Mangal'],
@@ -175,11 +179,11 @@ const portData = [
   },
   {
     id: 12,
-    title: 'Urban Oasis ',
+    title: 'Co Operative Society Bank ',
     status:'Unbuilt',
-    imgUrl: pImg,
-    category: 'House',
-    location: 'Velayittambalam, Kollam',
+    imgUrl: maI,
+    category: 'Commercial',
+    location: 'Mangad, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
     client:'Mr. RajKumar',
     design: ['Er.B.Sunilkumar', 'Ar.Arun.Ravikumar', 'Dr.Lalu Mangal'],
