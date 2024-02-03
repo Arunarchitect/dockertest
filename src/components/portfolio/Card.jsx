@@ -41,10 +41,9 @@ const Card = () => {
             </a>
           </h4>
           <h3>Client: {sPort.client}</h3>
-          <h2 className="text-xl font-bold mb-1"> Project team</h2>
           <h3>
             {" "}
-            Design Team:
+            Job Role:
             {sPort.design.length > 0 && (
               <span>
                 {sPort.design.map((designer, index) => (
@@ -57,18 +56,7 @@ const Card = () => {
             )}
           </h3>
           <h3>
-            {" "}
-            Execution Team:
-            {sPort.design.length > 0 && (
-              <span>
-                {sPort.exec.map((designer, index) => (
-                  <span key={index}>
-                    {index > 0 && ", "}
-                    {designer}
-                  </span>
-                ))}
-              </span>
-            )}
+   
           </h3>
 
           <h3 className="text-xl font-bold mb-2">Design Philosophy:  <p className="text-sm font-light mb-1">{sPort.phil}</p></h3>
