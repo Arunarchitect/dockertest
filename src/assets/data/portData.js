@@ -9,6 +9,7 @@ import caI from '../../images/cap.jpg';
 import mI from '../../images/mini.jpg';
 import muI from '../../images/mukesh.jpg';
 import maI from '../../images/mangad.jpg';
+import hImg from '../../images/home.png';
 
 const portData = [
   {
@@ -35,12 +36,12 @@ const portData = [
     category: 'Commercial',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr.Suresh',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
     description: 'Located in Ashramam , Kollam',
     fields: ['classic', 'spacious'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 3,
@@ -50,7 +51,7 @@ const portData = [
     category: 'Hospital',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Dr. Pramod',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
     description: 'The dental clinic in Kollam is a harmonious blend of modernity and functionality, thoughtfully designed to create a welcoming and soothing environment for patients. Located in the heart of Kollam, the clinic boasts a contemporary facade that reflects a commitment to cutting-edge dental care. The interiors are characterized by a palette of calming colors, with natural light flooding in through strategically placed windows, enhancing the overall sense of openness and tranquility. The reception area is equipped with comfortable seating, and the decor incorporates elements inspired by local culture, creating a sense of familiarity for patients. State-of-the-art dental equipment is seamlessly integrated into treatment rooms, ensuring efficiency and precision in procedures. The clinic\'s design prioritizes patient comfort, privacy, and accessibility, fostering an atmosphere that promotes oral health and well-being.',
@@ -65,27 +66,27 @@ const portData = [
     category: 'Plan',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Dr. Anish',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 4',
+    description: 'This project is designed in an efficient manner',
     fields: ['architectural', 'urban'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 5,
     title: 'Abu Shahman',
     status:'Unbuilt',
     imgUrl: AbImage,
-    category: 'Commercial',
+    category: 'House',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr. Abu Shahman',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 5',
+    description: 'This project is designed in an efficient manner',
     fields: ['minimalist', 'energy-efficient'], 
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 6,
@@ -98,9 +99,9 @@ const portData = [
     client:'Dr.Manoj & Dr.Mini',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 6',
+    description: 'This project is designed in an efficient manner',
     fields: ['innovative', 'patient-focused'],
-    phil:'The design of the project was conceived by integrating colonial and modern features of architecture in the context of Kerala.'
+    phil:'This project is designed in an efficient manner.'
   },
   {
     id: 7,
@@ -110,12 +111,12 @@ const portData = [
     category: 'Plan',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr. Mukesh',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 7',
+    description: 'This project is designed in an efficient manner',
     fields: ['landscape', 'community'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 8,
@@ -125,42 +126,42 @@ const portData = [
     category: 'House',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mangad Co-operative Society',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 8',
+    description: 'This project is designed in an efficient manner',
     fields: ['contemporary', 'eco-friendly'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 9,
     title: 'Residence for Mr. Ravikumar',
-    status:'Unbuilt',
-    imgUrl: pImg,
+    status:'Built',
+    imgUrl: hImg,
     category: 'House',
     location: 'Thevally, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
     client:'Mr. Ravikumar',
     design: ['Architect'],
-    exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 9',
-    fields: ['technological', 'healing'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    exec:['Arun Ravikumar'],
+    description: 'This project is designed in an efficient manner',
+    fields: ['Home', 'healing'],
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 10,
     title: 'Residence for Mr. Joseph',
     status:'Unbuilt',
     imgUrl: jImage,
-    category: 'Plan',
-    location: 'Thevally, Kollam',
+    category: 'House',
+    location: 'Shakthikulangara, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr. Joseph',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 10',
+    description: 'This project is designed in an efficient manner',
     fields: ['functional', 'efficient'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 11,
@@ -170,12 +171,12 @@ const portData = [
     category: 'Commercial',
     location: 'Kavanad',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mr. Peter',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 11',
+    description: 'This project is designed in an efficient manner',
     fields: ['luxurious', 'smart-home'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
   {
     id: 12,
@@ -185,12 +186,12 @@ const portData = [
     category: 'Commercial',
     location: 'Mangad, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
-    client:'Mr. RajKumar',
+    client:'Mangad Co-operative Society',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'Description for Project 12',
+    description: 'This project is designed in an efficient manner',
     fields: ['research', 'healing-environment'],
-    phil:'The project’s conceptualization aimed at transforming the existing residence into a multifaceted  commercial space, blending elements of luxury, relaxation, and creativity.  '
+    phil:'This project is designed in an efficient manner.  '
   },
 ];
 
