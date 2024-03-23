@@ -16,6 +16,7 @@ const Portfolio = () => {
   const showModelHandler = (projectId) => {
     // Use navigate to navigate to the dynamic route with the project ID
     navigate(`/project/${projectId}`);
+    
   };
 
 
@@ -63,10 +64,10 @@ const Portfolio = () => {
               Commercial
             </button>
             <button
-              onClick={() => setSelectTab("hospital")}
+              onClick={() => setSelectTab("house")}
               className="text-smallTextColor border border-solid border-smallTextColor   py-2 px-4 rounded-[8px]"
             >
-              Hospital
+              Residential
             </button>
           </div>
         </div>
@@ -92,7 +93,7 @@ const Portfolio = () => {
                   <h1>{portfolio.location}</h1>
                   <button
                     onClick={() => showModelHandler(portfolio.id)}
-                    className="text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
+                    className="text-white bg-green-500 hover:bg-smallTextColor py-2 px-4 rounded-[8px] font-[500] ease-in duration-200"
                   >
                     See Details
                   </button>

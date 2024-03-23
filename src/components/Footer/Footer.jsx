@@ -32,7 +32,7 @@ const Footer = () => {
                 </a>
               </span> */}
               <span className="w-[35px] h-[35px] bg-black p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                <a href="https://www.youtube.com/@arunravikumar97" className="text-gray-300 font-[500] text-[18px]">
                 <i className="ri-youtube-line"></i>
                 </a>
               </span>
@@ -42,8 +42,13 @@ const Footer = () => {
                 </a>
               </span>
               <span className="w-[35px] h-[35px] bg-black p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="#github" className="text-gray-300 font-[500] text-[18px]">
+                <a href="https://www.instagram.com/arun_ravikumar_997?igsh=Y3g2cnM3dWQ4NG1x" className="text-gray-300 font-[500] text-[18px]">
                 <i className="ri-instagram-line"></i>
+                </a>
+              </span>
+              <span className="w-[35px] h-[35px] bg-black p-1 rounded-[50px] cursor-pointer text-center">
+                <a href="https://www.linkedin.com/in/arun-ravikumar-336331165?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="text-gray-300 font-[500] text-[18px]">
+                <i className="ri-linkedin-box-fill"></i>
                 </a>
               </span>
             </div>
