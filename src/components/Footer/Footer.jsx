@@ -37,7 +37,7 @@ const Footer = () => {
                 </a>
               </span>
               <span className="w-[35px] h-[35px] bg-black p-1 rounded-[50px] cursor-pointer text-center">
-                <a href="/project" className="text-gray-300 font-[500] text-[18px]">
+                <a href="https://www.facebook.com/arunravi.ravimr?mibextid=ZbWKwL" className="text-gray-300 font-[500] text-[18px]">
                 <i className="ri-facebook-box-fill"></i>
                 </a>
               </span>

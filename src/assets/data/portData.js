@@ -108,7 +108,7 @@ const portData = [
   {
     id: 7,
     title: 'Residence Renovation: Mr. Mukesh (actor)',
-    status:'Unbuilt',
+    status:'Built-2023',
     imgUrl: muI,
     category: 'House',
     location: 'Pattathanam, Kollam',
@@ -138,7 +138,7 @@ const portData = [
   {
     id: 9,
     title: 'Residence for Mr. Ravikumar',
-    status:'Built',
+    status:'Built-2020',
     imgUrl: hImg,
     category: 'House',
     location: 'Kallelibhagom',
@@ -161,7 +161,7 @@ const portData = [
     client:'Mr. Joseph',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'This project is designed in an efficient manner',
+    description: 'This project is designed with immense focus on creating a homely environment in an irregular site. As per the clients needs the building spreads its whole are in one storey with a traditional sloped roof structure on top.',
     fields: ['functional', 'efficient'],
     phil:'Minimalistic,functional, traditional elements fused with modern elements '
   },
@@ -176,7 +176,7 @@ const portData = [
     client:'Mr. Peter',
     design: ['Architect'],
     exec:['Noufal','Arun Raj'],
-    description: 'This project aimed for transforming the old capithans theatre t',
+    description: 'This project aimed for transforming the old capithans theatre to a modern showroom. The project was later dropped even though the design was really appreciated.',
     fields: ['luxurious', 'smart-home'],
     phil:'Modern, Functional, Sustainable , Elegant  '
   },
