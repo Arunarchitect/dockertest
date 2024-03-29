@@ -71,7 +71,7 @@ const Hero = () => {
               <span>
                 <a
                   className="text-smallTextColor  text-[15px] font-[600]"
-                  href="https://www.youtube.com/@arunravikumar97"
+                  href="https://www.youtube.com/@arunravikumar97" target="_blank" 
                 >
                   <i className="ri-youtube-line"></i>
                 </a>
@@ -86,7 +86,7 @@ const Hero = () => {
               <span>
                 <a
                   className="text-smallTextColor  text-[15px] font-[600]"
-                  href="https://www.facebook.com/arunravi.ravimr?mibextid=ZbWKwL" 
+                  href="https://www.facebook.com/arunravi.ravimr?mibextid=ZbWKwL" target="_blank"  
                 >
                   <i className="ri-facebook-box-fill"></i>
                 </a>
@@ -94,7 +94,7 @@ const Hero = () => {
               <span>
                 <a
                   className="text-smallTextColor  text-[15px] font-[600]"
-                  href="https://www.instagram.com/arun_ravikumar_997?igsh=Y3g2cnM3dWQ4NG1x" 
+                  href="https://www.instagram.com/arun_ravikumar_997?igsh=Y3g2cnM3dWQ4NG1x"  target="_blank" 
                 >
                   <i className="ri-instagram-line"></i>
                 </a>
@@ -102,7 +102,7 @@ const Hero = () => {
               <span>
                 <a
                   className="text-smallTextColor  text-[15px] font-[600]"
-                  href="https://www.linkedin.com/in/arun-ravikumar-336331165?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                  href="https://www.linkedin.com/in/arun-ravikumar-336331165?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank" 
                 >
                   <i className="ri-linkedin-box-fill"></i>
                 </a>

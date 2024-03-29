@@ -13,7 +13,7 @@ function App() {
   }, []);
 
   return (
-    <div className="max-w-screen-xl mx-auto px-2">
+    <div className="max-w-screen-xl mx-auto px-0">
       <Header />
       <main className="mt-8 min-h-screen">
         <Outlet />

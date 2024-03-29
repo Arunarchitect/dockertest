@@ -36,7 +36,7 @@ const portData = [
     status:'Built-2023',
     imgUrl: SImage,
     category: 'Commercial',
-    location: 'Thevally, Kollam',
+    location: 'Ashramam, Kollam',
     lUrl:'https://maps.app.goo.gl/yGaXhAgAfy2aHNwZ6',
     client:'Mr.Suresh',
     design: ['Architect'],
