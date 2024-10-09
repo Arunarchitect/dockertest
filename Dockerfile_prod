@@ -1,4 +1,5 @@
-FROM node:lts-alpine as builder
+# Use uppercase for the FROM keyword
+FROM node:lts-alpine AS builder
 
 WORKDIR /app
 
@@ -10,10 +11,14 @@ COPY . .
 
 RUN npm run build
 
-# Use the Vite build output directory
+# Serve the application using Nginx
 FROM nginx:alpine
 
 # Copy the built files from the builder stage to the Nginx HTML directory
 COPY --from=builder /app/dist /usr/share/nginx/html
 
+# Expose port 80
 EXPOSE 80
+
+# Run Nginx in the foreground
+CMD ["nginx", "-g", "daemon off;"]
